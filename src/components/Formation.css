@@ -7,6 +7,10 @@
 
 .Formation {
     border : 1px solid black;
+    background-image: url('/public/img/soccerfield.jpg');
+    background-size: 100% 100%;
+    background-repeat: none;
+    background-position: center;
 }
 
 .createPlayer {
@@ -20,4 +24,12 @@
     border : 1px solid black;
     border-radius : 5rem;
     margin : 5px;
+}
+
+.createPosition {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 80%;
+    align-items: center;
 }

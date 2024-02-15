@@ -1,0 +1,14 @@
+.button100{
+    width : 100px;
+    height : 40px;
+    border-radius: 5rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    margin : 5px;
+}
+
+.button100:hover {
+    background-color : yellowgreen;
+}
