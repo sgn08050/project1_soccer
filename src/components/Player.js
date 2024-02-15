@@ -1,10 +1,11 @@
 export class Player {
-    constructor(stageWidth, stageHeight, radius, x, y) {
+    constructor(stageWidth, stageHeight, radius, x, y, position) {
         this.stageWidth = parseInt(stageWidth);
         this.stageHeight = parseInt(stageHeight);
         this.radius = parseInt(radius);
         this.x = this.checkBound(parseInt(stageWidth), parseInt(radius), parseInt(x));
         this.y = this.checkBound(parseInt(stageHeight), parseInt(radius), parseInt(y));
+        this.position = position;
 
         this.isDragging = false;
         this.prevX = 0;
@@ -20,6 +21,12 @@ export class Player {
         ctx.arc(this.x, this.y, this.radius, 0, 2*Math.PI);
         ctx.fill();
         ctx.stroke();
+
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 20px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(this.position, this.x, this.y);
     }
 
     // Down mouse event.

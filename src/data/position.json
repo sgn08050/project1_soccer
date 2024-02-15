@@ -1,0 +1,81 @@
+{
+    "players": [
+      {
+        "position": "GK",
+        "x_position": 130,
+        "y_position": 300
+      },
+
+      {
+        "position": "LCB",
+        "x_position": 260,
+        "y_position": 150
+      },
+
+      {
+        "position": "CB",
+        "x_position": 260,
+        "y_position": 300
+      },
+      {
+        "position": "RCB",
+        "x_position": 260,
+        "y_position": 450
+      },
+      {
+        "position": "LWB",
+        "x_position": 420,
+        "y_position": 150
+      },
+      {
+        "position": "RWB",
+        "x_position": 420,
+        "y_position": 450
+      },
+      {
+        "position": "DM",
+        "x_position": 420,
+        "y_position": 300
+      },
+      {
+        "position": "LM",
+        "x_position": 600,
+        "y_position": 150
+      },
+      {
+        "position": "CM",
+        "x_position": 600,
+        "y_position": 300
+      },
+      {
+        "position": "RM",
+        "x_position": 600,
+        "y_position": 450
+      },
+      {
+        "position": "AM",
+        "x_position": 750,
+        "y_position": 300
+      },
+      {
+        "position": "LW",
+        "x_position": 800,
+        "y_position": 150
+      },
+      {
+        "position": "RW",
+        "x_position": 800,
+        "y_position": 450
+      },
+      {
+        "position": "CF",
+        "x_position": 1000,
+        "y_position": 300
+      },
+      {
+        "position": "SS",
+        "x_position": 900,
+        "y_position": 300
+      }
+    ]
+  }
